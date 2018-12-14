@@ -1,0 +1,18 @@
+// nav styles
+
+.botonera{
+    list-style: none;
+    background-color: purple;
+    display: flex;
+
+    &-item{
+    flex-grow: 1;
+                &-link{
+                    color: #333;
+                        &:hover: orange;
+                        }
+                }
+}
+
+
+
